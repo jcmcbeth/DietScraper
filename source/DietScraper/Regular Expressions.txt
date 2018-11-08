@@ -1,0 +1,17 @@
+﻿Total Players
+<div id="game-total-players" class="stats-item">\s+<div class="stats-image"></div>\s+<div class="stats-data">\s+<span class="value">(?<total_players>[\d,]+)</span>
+
+Game Pot
+<div id="game-pot" class="stats-item">\s+<div class="stats-image"></div>\s+<div class="stats-data">\s+<span class="value">\$(?<bet_amount>[\d,]+)</span>
+
+Start Date
+<meta property="dietbet:start_date" content="(?<start_date>.*?)"/>
+
+End Date
+<meta property="dietbet:end_date" content="(?<end_date>.*?)"/>
+
+Title
+<meta property="og:title" content="(?<name>.*?)"/>
+
+Player Result Regex
+<a class="profile-img-wrap" href="/player-profile/(?<id>\d+)">.*?<h2 class="user-name">(?<name>.*?)</h2>.*?Start Weight:</span> (?<start_weight>.*?) lbs.*?Goal Weight:</span> (?<goal_weight>.*?) lbs.*?Win Odds:</span> (?<odds>.*?)%
